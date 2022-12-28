@@ -21,13 +21,13 @@
       "targetedOSVersionsRule": "12"
     },
     {
-      "aboutUpdateURL": "https://support.apple.com/en-us/HT212585#macos1262",
+      "aboutUpdateURL": "https://support.apple.com/en-us/HT211896#macos1172",
       "requiredInstallationDate": "2022-12-15T00:00:00Z",
       "requiredMinimumOSVersion": "11.7.2",
       "targetedOSVersionsRule": "11"
     },
     {
-      "aboutUpdateURL": "https://support.apple.com/en-us/HT212585#macos1262",
+      "aboutUpdateURL": "https://support.apple.com/en-us/HT213268#macos131",
       "requiredInstallationDate": "2022-12-15T00:00:00Z",
       "requiredMinimumOSVersion": "13.1",
       "targetedOSVersionsRule": "13"
@@ -56,10 +56,10 @@
     "fallbackLanguage": "en",
     "forceFallbackLanguage": false,
     "forceScreenShotIcon": false,
-    "iconDarkPath": "/tmp/Nudge/EMFlogo.png",
-    "iconLightPath": "/tmp/Nudge/EMFlogo.png",
-    "screenShotDarkPath": "/tmp/Nudge/UpdateScreenDark.png",
-    "screenShotLightPath": "/tmp/Nudge/UpdateScreenLight.png",
+    "iconDarkPath": "/Library/Application Support/Nudge/EMFlogo.png",
+    "iconLightPath": "/Library/Application Support/Nudge/EMFlogo.png",
+    "screenShotDarkPath": "/Library/Application Support/Nudge/UpdateScreenDark.png",
+    "screenShotLightPath": "/Library/Application Support/Nudge/UpdateScreenLight.png",
     "showDeferralCount": true,
     "simpleMode": false,
     "singleQuitButton": false,
