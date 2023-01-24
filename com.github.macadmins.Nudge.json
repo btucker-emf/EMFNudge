@@ -73,7 +73,7 @@
         "mainContentHeader": "Your device will restart during this update",
         "mainContentNote": "Important Notes",
         "mainContentSubHeader": "Updates can take up to an hour to complete",
-        "mainContentText": "A fully up-to-date device is required to ensure that IT can protect your device.\n\nTo begin the update, simply click on the Update Device button and follow the steps provided in the More Info link below.\n\nYou may defer this update to a later time by selecting the dropdown below.\n\nIf you don't see the defer dropdown, then the deadline has passed.",
+        "mainContentText": "A fully up-to-date device is required to ensure that IT can protect your device.\n\nTo begin the update, simply click on the Update Device button and follow the steps provided in the More Info link on the bottom left.\n\nYou may defer this update to a later time by selecting the dropdown below. If you don't see the defer dropdown, then the deadline has passed and you must update.",
         "mainHeader": "Your Mac requires a security update",
         "oneDayDeferralButtonText": "One Day",
         "oneHourDeferralButtonText": "One Hour",
