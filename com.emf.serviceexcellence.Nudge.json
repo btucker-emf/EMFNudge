@@ -1,0 +1,87 @@
+{
+  "optionalFeatures": {
+    "acceptableApplicationBundleIDs": [],
+    "acceptableAssertionUsage": false,
+    "acceptableCameraUsage": true,
+    "acceptableScreenSharingUsage": true,
+    "aggressiveUserExperience": true,
+    "aggressiveUserFullScreenExperience": true,
+    "asynchronousSoftwareUpdate": true,
+    "attemptToBlockApplicationLaunches": false,
+    "attemptToFetchMajorUpgrade": false,
+    "blockedApplicationBundleIDs": [],
+    "enforceMinorUpdates": true,
+    "terminateApplicationsOnLaunch": false
+  },
+  "osVersionRequirements": [
+    {
+      "aboutUpdateURL": "https://kloveair1.service-now.com/now/nav/ui/classic/params/target/kb_view.do%3Fsysparm_article%3DKB0014654",
+      "requiredInstallationDate": "2023-02-10T00:00:00Z",
+      "requiredMinimumOSVersion": "12.6.3",
+      "targetedOSVersionsRule": "12"
+    },
+    {
+      "aboutUpdateURL": "https://kloveair1.service-now.com/now/nav/ui/classic/params/target/kb_view.do%3Fsysparm_article%3DKB0014654",
+      "requiredInstallationDate": "2023-02-10T00:00:00Z",
+      "requiredMinimumOSVersion": "11.7.3",
+      "targetedOSVersionsRule": "11"
+    },
+    {
+      "aboutUpdateURL": "https://kloveair1.service-now.com/now/nav/ui/classic/params/target/kb_view.do%3Fsysparm_article%3DKB0014654",
+      "requiredInstallationDate": "2023-02-10T00:00:00Z",
+      "requiredMinimumOSVersion": "13.2",
+      "targetedOSVersionsRule": "13"
+    }
+  ],
+  "userExperience": {
+    "allowGracePeriods": false,
+    "allowLaterDeferralButton": false,
+    "allowUserQuitDeferrals": true,
+    "allowedDeferrals": 1000000,
+    "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
+    "approachingRefreshCycle": 6000,
+    "approachingWindowTime": 72,
+    "elapsedRefreshCycle": 300,
+    "gracePeriodInstallDelay": 23,
+    "gracePeriodLaunchDelay": 1,
+    "gracePeriodPath": "/private/var/db/.AppleSetupDone",
+    "imminentRefreshCycle": 600,
+    "imminentWindowTime": 24,
+    "initialRefreshCycle": 18000,
+    "maxRandomDelayInSeconds": 1200,
+    "noTimers": false,
+    "nudgeRefreshCycle": 60,
+    "randomDelay": false
+  },
+  "userInterface": {
+    "fallbackLanguage": "en",
+    "forceFallbackLanguage": false,
+    "forceScreenShotIcon": false,
+    "iconDarkPath": "/Library/Application Support/Nudge/EMFlogo.png",
+    "iconLightPath": "/Library/Application Support/Nudge/EMFlogo.png",
+    "screenShotDarkPath": "/Library/Application Support/Nudge/UpdateScreenDark.png",
+    "screenShotLightPath": "/Library/Application Support/Nudge/UpdateScreenLight.png",
+    "showDeferralCount": false,
+    "simpleMode": false,
+    "singleQuitButton": false,
+    "updateElements": [
+      {
+        "_language": "en",
+        "actionButtonText": "Update Device",
+        "customDeferralButtonText": "Custom",
+        "customDeferralDropdownText": "Defer",
+        "informationButtonText": "More Info",
+        "mainContentHeader": "Your device will restart during this update",
+        "mainContentNote": "Important Notes",
+        "mainContentSubHeader": "Updates can take up to an hour to complete",
+        "mainContentText": "A fully up-to-date device is required to ensure that IT can protect your device.\n\nTo begin the update, simply click on the Update Device button and follow the steps provided in the More Info link on the bottom left.\n\nYou may defer this update to a later time by selecting the dropdown below. If you don't see the defer dropdown, then the deadline has passed and you must update.",
+        "mainHeader": "Your Mac requires a security update",
+        "oneDayDeferralButtonText": "One Day",
+        "oneHourDeferralButtonText": "One Hour",
+        "primaryQuitButtonText": "Later",
+        "secondaryQuitButtonText": "I understand",
+        "subHeader": "A friendly reminder from your EMF Help Desk"
+      }
+    ]
+  }
+}
