@@ -17,31 +17,31 @@
     {
       "aboutUpdateURL": "https://kloveair1.service-now.com/now/nav/ui/classic/params/target/kb_view.do%3Fsysparm_article%3DKB0014654",
       "requiredInstallationDate": "2023-05-01T00:00:00Z",
-      "requiredMinimumOSVersion": "12.6.5",
+      "requiredMinimumOSVersion": "12.6.4",
       "targetedOSVersionsRule": "12"
     },
     {
       "aboutUpdateURL": "https://kloveair1.service-now.com/now/nav/ui/classic/params/target/kb_view.do%3Fsysparm_article%3DKB0014654",
       "requiredInstallationDate": "2023-05-01T00:00:00Z",
-      "requiredMinimumOSVersion": "11.7.6",
+      "requiredMinimumOSVersion": "11.7.5",
       "targetedOSVersionsRule": "11"
     },
     {
       "aboutUpdateURL": "https://kloveair1.service-now.com/now/nav/ui/classic/params/target/kb_view.do%3Fsysparm_article%3DKB0014654",
       "requiredInstallationDate": "2023-05-01T00:00:00Z",
-      "requiredMinimumOSVersion": "13.3.1",
+      "requiredMinimumOSVersion": "13.3",
       "targetedOSVersionsRule": "13"
     }
   ],
   "userExperience": {
     "allowGracePeriods": false,
     "allowLaterDeferralButton": false,
-    "allowUserQuitDeferrals": false,
+    "allowUserQuitDeferrals": true,
     "allowedDeferrals": 1000000,
     "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
     "approachingRefreshCycle": 6000,
     "approachingWindowTime": 72,
-    "elapsedRefreshCycle": 300,
+    "elapsedRefreshCycle": 30,
     "gracePeriodInstallDelay": 23,
     "gracePeriodLaunchDelay": 1,
     "gracePeriodPath": "/private/var/db/.AppleSetupDone",
@@ -57,8 +57,8 @@
     "fallbackLanguage": "en",
     "forceFallbackLanguage": false,
     "forceScreenShotIcon": false,
-    "iconDarkPath": "/Library/Application Support/Nudge/EMFlogo.png",
-    "iconLightPath": "/Library/Application Support/Nudge/EMFlogo.png",
+    "iconDarkPath": "/Library/Application Support/Nudge/EMFlogoLight.png",
+    "iconLightPath": "/Library/Application Support/Nudge/EMFlogoDark.png",
     "screenShotDarkPath": "/Library/Application Support/Nudge/UpdateScreenDark.png",
     "screenShotLightPath": "/Library/Application Support/Nudge/UpdateScreenLight.png",
     "showDeferralCount": false,
@@ -68,6 +68,7 @@
       {
         "_language": "en",
         "actionButtonText": "Update Device",
+        "customDeferralButtonText": "Custom",
         "customDeferralDropdownText": "Defer",
         "informationButtonText": "More Info",
         "mainContentHeader": "Your device will restart during this update",
