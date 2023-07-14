@@ -29,7 +29,7 @@
     {
       "aboutUpdateURL": "https://kloveair1.service-now.com/now/nav/ui/classic/params/target/kb_view.do%3Fsysparm_article%3DKB0014654",
       "requiredInstallationDate": "2023-06-05T00:00:00Z",
-      "requiredMinimumOSVersion": "13.4.1 (c)",
+      "requiredMinimumOSVersion": "13.4.1",
       "targetedOSVersionsRule": "13"
     }
   ],
